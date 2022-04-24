@@ -10,7 +10,7 @@ j <- NULL #cache value at first contains nothing so it is Null
          j <<- NULL
     }
 getm <- function() matt
-setInvs <- function(solve) j<<- solve #solving inversed matrix and setting inverse
+setInvs <- function(inv) j<<- inv #solving inversed matrix and setting inverse
 getInverse <- function() j #getting inversed value
 list(set = set, get = get,
     setInvs = setInvs,
